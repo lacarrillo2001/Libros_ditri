@@ -1,8 +1,8 @@
 services:
 
-  mysql-sisdb2025:
+  mysql-sisdb:
     image: mysql:8.0
-    container_name: mysql-sisdb2025
+    container_name: mysql-sisdb
     restart: always
     environment:
       MYSQL_DATABASE: sisdb2025
@@ -20,13 +20,13 @@ services:
     ports:
       - "8002:8002"
     environment:
-      DB_HOST: mysql-sisdb2025
+      DB_HOST: mysql-sisdb
       DB_PORT: 3306
       DB_NAME: sisdb2025
       DB_USER: root
       DB_PWD: abcd
     depends_on:
-      - mysql-sisdb2025
+      - mysql-sisdb
     networks:
       - libros-net
 
@@ -36,13 +36,13 @@ services:
     ports:
       - "8001:8001"
     environment:
-      DB_HOST: mysql-sisdb2025
+      DB_HOST: mysql-sisdb
       DB_PORT: 3306
       DB_NAME: sisdb2025
       DB_USER: root
       DB_PWD: abcd
     depends_on:
-      - mysql-sisdb2025
+      - mysql-sisdb
       - autores
     networks:
       - libros-net

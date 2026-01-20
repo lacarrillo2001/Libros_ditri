@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/oauth-server/src/main/java/com/espe/oauth_server/oauth/SecurityConfig.java;C:/Users/Andresl/Documents/Distribuidas/P2/ServicioLibros/oauth-server/oauth-server/src/main/java/com/espe/oauth_server/OauthServerApplication.java;C:/Users/Andresl/Documents/Distribuidas/P2/ServicioLibros/oauth-server/oauth-server/src/test/java/com/espe/oauth_server/OauthServerApplicationTests.java" />
+  </component>
+</project>
